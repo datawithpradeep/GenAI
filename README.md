@@ -11,21 +11,25 @@ Hands-on projects exploring LLMs, embeddings, and chatbots using Hugging Face, G
 ## Setup
 
 1. Clone the repo
-   git clone https://github.com/datawithpradeep/GenAI.git
-   cd GenAI
+git clone https://github.com/datawithpradeep/GenAI.git
+cd GenAI
+
 
 2. Create a virtual environment and install dependencies
-   pip install -r requirements.txt
+pip install -r requirements.txt
+
 
 3. Create a .env file in the root folder and add your keys
-   GROQ_API_KEY=your_key_here
-   GOOGLE_API_KEY=your_key_here
-   HF_TOKEN=your_key_here
+GROQ_API_KEY=your_key_here
+GOOGLE_API_KEY=your_key_here
+HF_TOKEN=your_key_here
+
 
 ## Run
 
 python ChatBot/chatmodel_groq.py
 streamlit run LLM/model_with_ui.py
+
 
 ## Notes
 
